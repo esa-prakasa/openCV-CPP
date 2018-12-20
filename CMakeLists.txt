@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
-project( euDist )
+project( namaFile )
 find_package( OpenCV REQUIRED )
-add_executable( euDist euDist.cpp )
-target_link_libraries( euDist ${OpenCV_LIBS} )
+add_executable( namaFile namaFile.cpp )
+target_link_libraries( namaFile ${OpenCV_LIBS} )

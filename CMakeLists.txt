@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( euDist )
+find_package( OpenCV REQUIRED )
+add_executable( euDist euDist.cpp )
+target_link_libraries( euDist ${OpenCV_LIBS} )

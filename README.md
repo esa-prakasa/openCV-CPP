@@ -1,4 +1,4 @@
-# opencv
+# OpenCV uning C++
 Examples of C++ codes using OpenCV libraries 
 
 

@@ -1,3 +1,5 @@
+//This code is used to access the video frame from webcam. 
+
 #include "opencv2/highgui/highgui.hpp"
 
 using namespace cv;
